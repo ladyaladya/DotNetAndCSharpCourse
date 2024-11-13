@@ -7,4 +7,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Storage\01 - Одновимірний масив - Оголошення та Ініціалізація.cs" />
+    <Compile Remove="Storage\02 - Маніпуляції з масивом - Цикл for.cs" />
+    <Compile Remove="Storage\03 - Маніпуляції з масивом - Цикл for з Length.cs" />
+    <Compile Remove="Storage\04 - Маніпуляції з масивом - Цикл foreach.cs" />
+    <Compile Remove="Storage\05 - Двовимірний масив - Бібліотека книг.cs" />
+    <Compile Remove="Storage\06 - Двовимірний масив - Середній вік людей .cs" />
+    <Compile Remove="Storage\07 - Тривимірний масив - Бібліотека книг.cs" />
+    <Compile Remove="Storage\08 - Ступінчастий масив - Книжкові полиці.cs" />
+    <Compile Remove="Storage\09 - Ступінчастий масив - Книжкові полиці - foreach.cs" />
+    <Compile Remove="Storage\10 - System.Array.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Storage\01 - Одновимірний масив - Оголошення та Ініціалізація.cs" />
+    <None Include="Storage\02 - Маніпуляції з масивом - Цикл for.cs" />
+    <None Include="Storage\03 - Маніпуляції з масивом - Цикл for з Length.cs" />
+    <None Include="Storage\07 - Тривимірний масив - Бібліотека книг.cs" />
+    <None Include="Storage\05 - Двовимірний масив - Бібліотека книг.cs" />
+    <None Include="Storage\06 - Двовимірний масив - Середній вік людей .cs" />
+    <None Include="Storage\10 - System.Array.cs" />
+    <None Include="Storage\09 - Ступінчастий масив - Книжкові полиці - foreach.cs" />
+    <None Include="Storage\08 - Ступінчастий масив - Книжкові полиці.cs" />
+    <None Include="Storage\04 - Маніпуляції з масивом - Цикл foreach.cs" />
+  </ItemGroup>
+
 </Project>
