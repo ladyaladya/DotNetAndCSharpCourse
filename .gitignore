@@ -1,0 +1,81 @@
+# .NET Core / .NET 5+ / .NET Standard / ASP.NET Core
+# Ignore build output directories
+bin/
+obj/
+
+# Publish output
+publish/
+out/
+
+# Visual Studio project folders
+.vscode/
+.vs/
+.vscode/**/*
+.vs/**/*
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated settings files
+*.rsuser
+*.sln.docstates
+*.swp
+
+# User-specific or temporary files
+*.dbmdl
+*.pfx
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Certificates and secrets
+*.key
+*.snk
+secrets.json
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Generated code files
+Generated/
+Generated_Code/
+
+# Backup files and logs
+*.bak
+*.log
+*.log*
+
+# Local environment-specific configuration files
+appsettings.Development.json
+
+# Mac-specific system files
+.DS_Store
+._*
+
+# Windows-specific system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio profile folder
+.vs/
+ServiceFabricBackup/
+
+# Rider settings
+.idea/
+
+# Gulp, Grunt, Bower
+node_modules/
+bower_components/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Libraries and logs
+lib/
+logs/
